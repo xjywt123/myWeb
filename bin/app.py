@@ -10,7 +10,7 @@ class index(object):
 		# form = web.input(name = "nobody",age = "28")
 		# return my_render.hello("good morning!")
 		x = web.input(pic = {})
-		file_dir = 'F:/myRepository/myWeb/myWeb/myPic'
+		file_dir = 'F:/myRepository/myWeb/myPic'
 		# web.debug(x['pic'].filename)
 		if "pic" in x:
 			file_path = x.pic.filename.replace('\\','/')
